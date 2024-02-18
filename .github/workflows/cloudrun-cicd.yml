@@ -19,6 +19,8 @@ jobs:
           PROJECT_ID: boot-camp-gdsc
           credentials_json: ${{ secrets.GCP_CREDENTIALS }}
           export_default_credentials: true
+          supabase_url: ${{ secrets.SUPABASE_URL }}
+          supabase_key: ${{ secrets.SUPABASE_TOKEN}}
 
       - name: Configure docker for GCP
         run: gcloud auth configure-docker
@@ -40,7 +42,3 @@ jobs:
           region: asia-southeast2
           platform: managed
           allow-unauthenticated: true
-          env_vars:
-              SUPABASE_URL: ${{ secrets.SUPABASE_URL}}
-              SUPABASE_TOKEN: ${{ secrets.SUPABASE_TOKEN}}
-     
