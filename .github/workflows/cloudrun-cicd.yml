@@ -38,7 +38,7 @@ jobs:
         uses: google-github-actions/deploy-cloudrun@v1
         with:
           image: gcr.io/boot-camp-gdsc/expressjs:latest
-          service: expressjs-dev
+          service: expressjs-prod
           region: asia-southeast2
           platform: managed
           allow-unauthenticated: true
