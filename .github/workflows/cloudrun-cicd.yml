@@ -42,6 +42,7 @@ jobs:
           region: asia-southeast2
           platform: managed
           allow-unauthenticated: true
+          port: 8080
           timeout: 3m
           env_vars: |
               port=8080
