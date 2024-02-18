@@ -43,5 +43,6 @@ jobs:
           platform: managed
           allow-unauthenticated: true
           port: 8080
+          no_traffic: true
           env_vars: |
               port=8080
