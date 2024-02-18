@@ -42,3 +42,4 @@ jobs:
           region: asia-southeast2
           platform: managed
           allow-unauthenticated: true
+          port: 8080
