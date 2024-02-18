@@ -43,6 +43,5 @@ jobs:
           platform: managed
           allow-unauthenticated: true
           timeout: 3m
-          no_traffic: true
           env_vars: |
               port=8080
