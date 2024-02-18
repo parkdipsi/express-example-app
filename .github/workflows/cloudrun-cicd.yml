@@ -40,9 +40,5 @@ jobs:
           region: asia-southeast2
           platform: managed
           allow-unauthenticated: true
-          env_vars:
-              PORT: ${{ secrets.PORT }}
-              VERSION: ${{ secrets.VERSION}}
-              SUPABASE_URL: ${{ secrets.SUPABASE_URL}}
-              SUPABASE_TOKEN: ${{ secrets.SUPABASE_TOKEN}}
+
      
