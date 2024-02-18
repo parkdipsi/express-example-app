@@ -44,4 +44,4 @@ jobs:
           allow-unauthenticated: true
           port: 8080
           env_vars: |
-              port=PORT
+              port=8080
