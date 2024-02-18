@@ -43,3 +43,5 @@ jobs:
           platform: managed
           allow-unauthenticated: true
           port: 8080
+          env_vars: |
+              port=PORT
